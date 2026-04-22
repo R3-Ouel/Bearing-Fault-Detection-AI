@@ -5,5 +5,5 @@ matplotlib
 sounddevice
 scipy
 opencv-python
-scikit-leran
+scikit-learn
 sounddevice
