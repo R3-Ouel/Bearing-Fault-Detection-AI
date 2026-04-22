@@ -1,0 +1,12 @@
+# Crée le fichier .gitignore via une commande magique Jupyter
+content = """data/
+*.h5
+__pycache__/
+.venv/
+.DS_Store
+*.ipynb_checkpoints/"""
+
+with open('.gitignore', 'w') as f:
+    f.write(content)
+
+print("Fichier .gitignore créé avec succès !")
